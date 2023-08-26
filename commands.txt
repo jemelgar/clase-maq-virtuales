@@ -1,0 +1,17 @@
+
+    1  apt-get update
+    2  halt
+    3  git clone https://github.com/jemelgar/clase-maq-virtuales
+    4  ls
+    5  cd clase-maq-virtuales/
+    6  ls
+    7  touch cuestionario.txt
+    8  nano cuestionario.txt 
+    9  git config -user.name "Enrique"
+   10  git config --global user.name "Enrique"
+   11
+   12  git push origin main
+   13  git add .
+   14  git commit -m "Preguntas y respuestas maquinas virtuales"
+   15  git push origin main
+   16  history 50 > commands.txt
